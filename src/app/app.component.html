@@ -15,3 +15,33 @@
     </div>
   </div>
 </div>
+
+
+<!--
+  <div class="container mt-5">: Этот div является контейнером, который использует Bootstrap для создания сеточной структуры.
+  container обычно центрирует содержимое по центру страницы, а mt-5 добавляет верхний отступ (margin-top) для создания
+  пространства между содержимым и верхней частью страницы.
+
+  <h2 class="text-center">TO DO APP</h2>: Этот заголовок h2 имеет класс text-center, который центрирует текст по горизонтали.
+  Это также свойство Bootstrap для выравнивания элементов.
+
+  <div class="input-group mb-3">: Этот div создает группу элементов ввода, что делает ваши поля ввода и кнопку более структурированными.
+  input-group и mb-3 - это классы Bootstrap, которые добавляют стили для создания этой группы и добавляют нижний отступ (margin-bottom).
+
+  <input #newNote class="form-control" placeholder="Enter a new note">: Этот input-элемент имеет класс form-control,
+  который придает ему стандартный стиль Bootstrap для полей ввода. #newNote - это Angular директива для привязки элемента к переменной в компоненте.
+
+  <button class="btn btn-primary" (click)="addNote(newNote.value)">ADD NOTE</button>: Эта кнопка имеет классы btn и
+  btn-primary, которые добавляют стили Bootstrap для кнопок. (click)="addNote(newNote.value)" - это Angular директива,
+  которая вызывает функцию addNote в вашем компоненте при щелчке на кнопке.
+
+  <div class="list-group">: Этот div также использует класс Bootstrap list-group для создания списка элементов.
+  <div *ngFor="let note of notes" class="list-group-item">: Этот div использует *ngFor для итерации по массиву notes
+  и создания элемента списка для каждой записи. list-group-item - это класс Bootstrap для стилизации элементов списка.
+
+    <b>{{ note.description }}</b>: Это использует тег <b> для создания жирного текста, а {{ note.description }} - это
+    Аngular директива для вывода описания каждой записи.
+
+    <button class="btn btn-danger float-right" (click)="deleteNote(note.id)">DELETE NOTE</button>: Эта кнопка имеет классы
+    btn, btn-danger, и float-right, что делает ее красной и размещает ее справа. (click)="deleteNote(note.id)" - это Angular
+    директива для удаления записи при щелчке на кнопке.-->
